@@ -1,15 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
-export const Global = createGlobalStyle`
-    * {
+export const AppGlobal = createGlobalStyle`
+    *{
+        margin: 0;
         padding: 0;
         border: 0;
-        margin: 0;
+
         box-sizing: content-box;
-        background-color: black;
-        color: white;
         font-family: sans-serif;
     }
-    
-    a {text-decoration: none;}
-`
+    a{ text-decoration: none; }
+`;

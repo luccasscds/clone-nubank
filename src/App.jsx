@@ -1,3 +1,4 @@
+import { AppRouter } from "./Router";
 import {AppGlobal} from "./styles/GLOBAL";
 
 function App() {
@@ -5,9 +6,9 @@ function App() {
   return (
     <>
       <AppGlobal/>
-      <h1>App</h1>
+      <AppRouter/>
     </>
   )
 }
 
-export default App
+export default App;

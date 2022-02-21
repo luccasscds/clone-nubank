@@ -41,11 +41,11 @@ export function Account() {
             <DigitalAccount>
                 <ContainerAccount>
                     <ContainerInfo>
-                        <TextAccount fontSize={1.5} >Conta</TextAccount>
+                        <TextAccount >Conta</TextAccount>
                         <Img src={next} />
                     </ContainerInfo>
                     
-                    <TextAccount fontSize={1.5} pt={1} >R$ 10.000,00</TextAccount>
+                    <TextAccount pt={1} >R$ 10.000,00</TextAccount>
                 </ContainerAccount>
                 
                 

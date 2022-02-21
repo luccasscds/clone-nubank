@@ -17,7 +17,8 @@ export const ContainerInfo = styled.div`
     justify-content: space-between;
 `;
 export const TextAccount = styled.p`
-    font-size: ${ props => `${props?.fontSize}rem`};
+    font-size: 1.5rem;
+    font-weight: bolder;
     padding-top: ${ props => props?.pt ? `${props?.pt}rem` : 0 };
 `;
 export const ArrayButtons = styled.div`

@@ -54,6 +54,7 @@ export const TextButton = styled.p`
     max-width: 84px;
     overflow: hidden;
     white-space: nowrap;
+    font-weight: bolder;
 `;
 export const MyCards = styled.div`
     display: flex;
@@ -68,7 +69,9 @@ export const ImgCard = styled.img`
     width: 30px;
     margin-right: 1rem;
 `;
-export const Text = styled.p``;
+export const Text = styled.p`
+    font-weight: bolder;
+`;
 export const ArrayInvestment = styled.div`
     display: flex;
     flex-direction: row;

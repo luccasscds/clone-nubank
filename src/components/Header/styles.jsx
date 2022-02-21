@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.section`
+export const Wrapper = styled.header`
     background: rgb(130, 10, 209);
     color: white;
     padding: 1.5rem;

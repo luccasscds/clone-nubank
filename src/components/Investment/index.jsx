@@ -2,13 +2,13 @@ import {
     Wrapper, Img, Text, Title
 } from "./styles";
 
-import loan from "../../assets/images/loan.svg";
+import rede from "../../assets/images/sinal-de-rede.png";
 import next from "../../assets/images/next.png";
 
 export function Investment() {
     return(
         <Wrapper>
-            <Img src={loan} />
+            <Img src={rede} />
             <Title>
                 <Text fontSize={1.5} fw="bolder" >Investimentos</Text>
                 <Img src={next} />

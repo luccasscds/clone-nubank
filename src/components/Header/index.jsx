@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import {
     Wrapper, ContainerPrimary, ContainerProfile, Img,
     ContainerIcons, ContainerSecondary, ProfileName
@@ -12,7 +14,19 @@ import email from "../../assets/images/email.svg";
 
 export function Header() {
     const userName = "Lucas";
+    const [ olho, setOlho ] = useState(olhoAberto);
+    const [ show, setShow ] = useState(true);
     
+    function isShow() {
+        if(show === true) {
+            setShow(false);
+            setOlho(olhoFechado);
+        }else {
+            setShow(true);
+            setOlho(olhoAberto);
+        }
+    }
+
     return(
         <Wrapper>
             <ContainerPrimary>
@@ -21,8 +35,7 @@ export function Header() {
                 </ContainerProfile>
 
                 <ContainerIcons>
-                    <Img src={olhoAberto} alt="vendo" />
-                    {/* <Img src={olhoFechado} alt="fechado" /> */}
+                    <Img src={olho} alt="vendo" onClick={isShow} />
                     <Img src={help} alt="ajuda" />
                     <Img src={email} alt="email" />
                 </ContainerIcons>

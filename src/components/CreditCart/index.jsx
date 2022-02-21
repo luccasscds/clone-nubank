@@ -14,7 +14,7 @@ export function CreditCart() {
                 <Img src={next} />
             </Title>
             <Text fontSize={1.3} color="#6e7176" >Fatura fechada</Text>
-            <Text fontSize={1.5} fw="bolder" >R$ 150,73</Text>
+            <Text className={"isHide"} fontSize={1.5} fw="bolder" >R$ 150,73</Text>
             <Text fontSize={1.3} color="#6e7176" >Vencimento dia 25</Text>
             <WrapperButtons>
                 <Button color="#ff4662" textColor="white" >Pagar fatura</Button>

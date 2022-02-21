@@ -14,7 +14,7 @@ export function Loan() {
                 <Img src={next} />
             </Title>
             <Text fontSize={1.3} color="#6e7176" >Valor disponível de até</Text>
-            <Text fontSize={1.3} color="#6e7176" >R$ 1.000.000,00</Text>
+            <Text className={"isHide"} fontSize={1.3} color="#6e7176" >R$ 1.000.000,00</Text>
         </Wrapper>
     );
 }

@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Hide } from "../../tools/Hide";
 
 import {
     Wrapper, ContainerPrimary, ContainerProfile, Img,
@@ -13,7 +14,7 @@ import email from "../../assets/images/email.svg";
 
 
 export function Header() {
-    const userName = "Lucas";
+    const [ userName, setUserName ] = useState("Lucas");
     const [ olho, setOlho ] = useState(olhoAberto);
     const [ show, setShow ] = useState(true);
     
@@ -25,6 +26,7 @@ export function Header() {
             setShow(true);
             setOlho(olhoAberto);
         }
+        Hide();
     }
 
     return(

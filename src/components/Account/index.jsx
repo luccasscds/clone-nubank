@@ -6,7 +6,8 @@ import {
     MyCards, ImgCard, Text, ArrayInvestment, ContainerInvestment,
     TextColor, Img, ContainerAccount,BackgroundButton
 } from "./styles";
-// images
+
+// Images
 import next from "../../assets/images/next.png";
 import pix from "../../assets/images/pix.svg";
 import pay from "../../assets/images/pay.png";
@@ -36,6 +37,7 @@ export function Account() {
         { text1: "Conhença ", textColor: "Nubank Vida: ", text2: "um seguro simples e que acabe no bolso." },
         { text1: "Salve seus amigos da burocracia. ", textColor: "Faça uma indicação ", text2: "e resgate eles da fila." }
     ]);
+
     return(
         <Wrapper>
             <DigitalAccount>
@@ -45,7 +47,7 @@ export function Account() {
                         <Img src={next} />
                     </ContainerInfo>
                     
-                    <TextAccount pt={1} >R$ 10.000,00</TextAccount>
+                    <TextAccount className={"isHide"} pt={1} >R$ 10.000,00</TextAccount>
                 </ContainerAccount>
                 
                 
@@ -70,7 +72,9 @@ export function Account() {
                     {investments.map( investment => {
                         return(
                             <ContainerInvestment>
-                                <p>{investment.text1} <TextColor>{investment.textColor}</TextColor>{investment.text2}</p>
+                                <p>
+                                    {investment.text1} <TextColor>{investment.textColor}</TextColor>{investment.text2}
+                                </p>
                             </ContainerInvestment>
                         )
                     })}

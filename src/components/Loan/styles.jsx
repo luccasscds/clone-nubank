@@ -20,16 +20,3 @@ export const Text = styled.p`
     color: ${ props => props?.color ? props?.color : 'black' };
     padding-bottom: .5rem;
 `;
-export const WrapperButtons = styled.div`
-    padding: 1.5rem 0;
-`;
-export const Button = styled.button`
-    background: ${ props => props?.color ? props?.color : '#f5f5f4' };
-    padding: .5rem 1rem;
-    border-radius: 1.5rem;
-    margin: 0 1rem 1rem 0;
-    color: ${ props => props?.textColor ? props?.textColor : "black" };
-    font-size: 1.5rem;
-    font-weight: bold;
-    cursor: pointer;
-`;

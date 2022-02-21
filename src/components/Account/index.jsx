@@ -12,9 +12,11 @@ import pix from "../../assets/images/pix.svg";
 import pay from "../../assets/images/pay.png";
 import depositar from "../../assets/images/depositar.svg";
 import card from "../../assets/images/card.svg";
-import emprestimo from "../../assets/images/emprestimo.svg";
+import loan from "../../assets/images/loan.svg";
 import recarga from "../../assets/images/recarga.svg";
 import cobrar from "../../assets/images/cobrar.svg";
+import heart from "../../assets/images/heart.png";
+import international from "../../assets/images/international.png";
 
 export function Account() {
     const [icons, setIcons] = useState([
@@ -22,9 +24,11 @@ export function Account() {
         { url: pay, text: "Pagar" },
         { url: depositar, text: "Transferir" },
         { url: depositar, text: "Depositar" },
-        { url: emprestimo, text: "Pagar emprestimo" },
+        { url: loan, text: "Pagar emprestimo" },
         { url: recarga, text: "Recarga de celular" },
         { url: cobrar, text: "Cobrar" },
+        { url: heart, text: "Doação" },
+        { url: international, text: "Transferir" },
     ]);
 
     const [investments, setInvestment] = useState([

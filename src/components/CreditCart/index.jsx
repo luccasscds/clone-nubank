@@ -1,5 +1,5 @@
 import {
-    Wrapper, Img, Text, Title, WrapperButtons, Button
+    Wrapper, Img, Text, Title, WrapperButtons, Button, ImgIcon
 } from "./styles";
 
 import cart from "../../assets/images/card.svg";
@@ -11,7 +11,7 @@ export function CreditCart() {
             <Img src={cart} />
             <Title>
                 <Text fontSize={1.5} fw="bolder" >Cartão de crédito</Text>
-                <Img src={next} />
+                <ImgIcon src={next} />
             </Title>
             <Text fontSize={1.3} color="#6e7176" >Fatura fechada</Text>
             <Text className={"isHide"} fontSize={1.5} fw="bolder" >R$ 150,73</Text>

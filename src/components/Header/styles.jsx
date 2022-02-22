@@ -18,8 +18,11 @@ export const Img = styled.img`
 `;
 export const ContainerIcons = styled.div`
     Img {
-        width: 30px;
+        width: clamp(25px, 5vw, 30px);
         margin-right: 1rem;
+        :nth-child(3){
+            margin: 0;
+        }
     }
 `;
 export const ContainerSecondary = styled.div`

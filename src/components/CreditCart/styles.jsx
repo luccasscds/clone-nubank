@@ -6,13 +6,16 @@ export const Wrapper = styled.section`
 `;
 export const Img = styled.img`
     width: 30px;
-    margin-top: 1rem;
+`;
+export const ImgIcon = styled.img`
+    width: 20px;
 `;
 export const Title = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 1rem 0;
 `;
 export const Text = styled.p`
     font-size: ${ props => props?.fontSize ? `${props?.fontSize}rem` : 'normal' };

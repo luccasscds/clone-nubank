@@ -17,10 +17,10 @@ export function Home() {
             <Header />
             <Account />
             <CreditCart />
-            <MuchOption icons={loan} text={["Empréstimo", "Valor disponível de até", "R$ 1.000.000,00"]} />
-            <MuchOption icons={rede} text={["Investimentos", "O jeito Nu de investir: sem asteristos, liguagem fácil e a partir de R$ 1. Saiba mais."]} />
-            <MuchOption icons={heart} text={["Seguro de vida", "Conheça Nubank: um seguro mais simples e que cabe no bolso."]} />
-            <MuchOption icons={shopping} text={["Shopping", "Vantagens exclusivas das nossas marcas preferidas"]} />
+            <MuchOption isHide={"isHide"} icons={loan} text={["Empréstimo", "Valor disponível de até", "R$ 1.000.000,00"]} />
+            <MuchOption isHide={""} icons={rede} text={["Investimentos", "O jeito Nu de investir: sem asteristos, liguagem fácil e a partir de R$ 1. Saiba mais."]} />
+            <MuchOption isHide={""} icons={heart} text={["Seguro de vida", "Conheça Nubank: um seguro mais simples e que cabe no bolso."]} />
+            <MuchOption isHide={""} icons={shopping} text={["Shopping", "Vantagens exclusivas das nossas marcas preferidas"]} />
         </Container>
     );
 }

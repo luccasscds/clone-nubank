@@ -11,7 +11,7 @@ export function MuchOption(props) {
                 <Img src={next} />
             </Title>
             <Text fontSize={1.3} color="#6e7176" >{props?.text[1]}</Text>
-            <Text className={"isHide"} fontSize={1.3} color="#6e7176" >{props?.text[2]}</Text>
+            <Text className={props?.isHide} fontSize={1.3} color="#6e7176" >{props?.text[2]}</Text>
         </Wrapper>
     );
 }

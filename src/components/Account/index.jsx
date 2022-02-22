@@ -10,7 +10,7 @@ import {
 // Images
 import next from "../../assets/images/next.png";
 import pix from "../../assets/images/pix.svg";
-import pay from "../../assets/images/pay.png";
+import pay from "../../assets/images/pay.svg";
 import depositar from "../../assets/images/depositar.svg";
 import card from "../../assets/images/card.svg";
 import loan from "../../assets/images/loan.svg";

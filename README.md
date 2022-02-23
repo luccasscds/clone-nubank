@@ -3,7 +3,7 @@
     Clone Nubank 
 </h1>
 
-<video src="./.github/clone-nubank.mp4" width="100%" autoplay loop></video>
+https://user-images.githubusercontent.com/45472635/155242436-83832299-792b-42c9-9366-0428854cf7cc.mp4
 
 ## ✨ Sobre
 Clone Nubank é uma cópia da interfase da aplicação com intuito de aprendizado.
@@ -48,4 +48,4 @@ Ver o projeto em produção através desse [link](https://competent-sammet-fd7ae
     yarn dev
 ```
 
-E acesse o [localhost:300](localhost:300)
+E acesse o [localhost:300](http://localhost:3000/)

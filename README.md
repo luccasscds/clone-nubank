@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 
 ## 🔭 Visualizar
-Ver o projeto em produção através desse [link](https://competent-sammet-fd7ae5.netlify.app/).
+Ver o projeto em produção através desse [link](https://clone-nubank-drab.vercel.app/).
 
 ## 🚀 Executar
 

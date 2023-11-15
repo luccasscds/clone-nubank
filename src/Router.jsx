@@ -6,7 +6,7 @@ export function AppRouter() {
         <Routes>
             <Route path="/" element={ <Home /> } ></Route>
 
-            <Route path="*" element={ <h1>Not Found</h1> } />
+            {/* <Route path="*" element={ <h1>Not Found</h1> } />*/}
         </Routes>
     );
 }

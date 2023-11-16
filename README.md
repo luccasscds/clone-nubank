@@ -3,7 +3,7 @@
     Clone Nubank 
 </h1>
 
-https://user-images.githubusercontent.com/45472635/155242436-83832299-792b-42c9-9366-0428854cf7cc.mp4
+<img src="./.github/clone-nubank.gif" />
 
 ## ✨ Sobre
 Clone Nubank é uma cópia da interfase da aplicação com intuito de aprendizado.
